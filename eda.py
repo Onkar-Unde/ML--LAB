@@ -16,7 +16,7 @@ csv_path = os.path.join(script_dir, "used_cars_data.csv")
 
 if os.path.exists(csv_path):
     data = pd.read_csv(csv_path)
-    print("✅ CSV file loaded successfully!\n")
+    print("CSV file loaded successfully!\n")
 else:
     print(f"Error: File not found at {csv_path}")
     exit()  
